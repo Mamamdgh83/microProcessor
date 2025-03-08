@@ -76,7 +76,7 @@ void loop() {
 * **تنظیم حالت پین $${\color{Red}LED \space BUILTIN}$$:** در تابع `setup`، پین $${\color{Red}LED \space BUILTIN}$$ به عنوان خروجی تنظیم می‌شود تا بتوانیم از طریق $${\color{Blue}PUSH \space BUTTON}$$ به آن مقدار دهیم و آن را روشن یا خاموش کنیم.
 * **تنظیم حالت پین $${\color{Green}inPin}$$:** در تابع `setup`، پین $${\color{red}inPin}$$ به عنوان ورودی تنظیم می‌شود تا بتوانیم مقدار آن را خوانده و $${\color{lightblue}LED \space BUILTIN}$$ را خاموش یا روشن کنیم.
 * **حلقه اصلی:** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، متغیر `val` مقدار $${\color{Green}inPin}$$ را خوانده و به $${\color{Red}LED \space BUILTIN}$$ می دهد.
-*  در ازمایش اول در مورد توابع LOOP و SETUP کامل توضیح داده شده است.
+*  **در ازمایش اول در مورد توابع LOOP و SETUP کامل توضیح داده شده است.**
 **شماتیک مدار:**
 
 ![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
