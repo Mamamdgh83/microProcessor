@@ -40,13 +40,13 @@ void loop() {
 
 # آزمایش دوم
 
-## کنترل $${\color{lightblue}LED \space BUILTIN}$$ با $${\color{red}PUSH \space BUTTON}$$
+## کنترل $${\color{Red}LED \space BUILTIN}$$ با $${\color{Blue}PUSH \space BUTTON}$$
 
 ### هدف آزمایش:
-هدف از انجام این آزمایش، استفاده از ابزار های جدید برای اتصال به برد و تعریف آنها به برد برای انجام کار های جدید می باشد.
+هدف از انجام این آزمایش، استفاده از ابزار های جدید برای اتصال به برد و تعریف آنها به برد برای انجام کار های جدید  از جمله خاموش و روشن کردن LED به صورت لمسی می باشد.
 
 ### وسایل مورد نیاز:
-* برد آردوینو
+* برد آردوینو $${\color{lightblue}UNO \space}$$
 * یک عدد $${\color{red}PUSH \space BUTTON}$$
 * بردبورد
 * سیم‌های جامپر
@@ -55,7 +55,7 @@ void loop() {
 
 ### شرح آزمایش:
 
-در این آزمایش، سعی داریم $${\color{lightblue}LED \space BUILTIN}$$ روی برد آردیونو را با $${\color{red}PUSH \space BUTTON}$$ از طریق برنامه نوشته شده خاموش یا روشن کنیم.
+در این آزمایش، سعی داریم $${\color{Red}LED \space BUILTIN}$$ روی برد آردیونو را با $${\color{Blue}PUSH \space BUTTON}$$ از طریق برنامه IDE نوشته شده خاموش یا روشن کنیم.
 
 **کد نرم‌افزاری و توضیحات:**
 ```c++
@@ -71,19 +71,19 @@ void loop() {
   digitalWrite(LED_BUILTIN, val);  // تنظیم LED بر اساس مقدار PUSH BUTTON
 }
 ```
-* **تعریف پین $${\color{red}PUSH \space BUTTON}$$:** در ابتدای برنامه، پین $${\color{red}PUSH \space BUTTON}$$ به متغیر `inPin` اختصاص داده می‌شود که در این مثال پین 7 است.
-* **متغیر val:** در ابتدای برنامه، متغیر `val` برای ذخیره مقدار $${\color{red}PUSH \space BUTTON}$$ تعریف می شود.
-* **تنظیم حالت پین $${\color{lightblue}LED \space BUILTIN}$$:** در تابع `setup`، پین $${\color{lightblue}LED \space BUILTIN}$$ به عنوان خروجی تنظیم می‌شود تا بتوانیم به آن مقدار دهیم و آن را روشن یا خاموش کنیم.
-* **تنظیم حالت پین $${\color{red}inPin}$$:** در تابع `setup`، پین $${\color{red}inPin}$$ به عنوان ورودی تنظیم می‌شود تا بتوانیم مقدار آن را خوانده و $${\color{lightblue}LED \space BUILTIN}$$ را خاموش یا روشن کنیم.
-* **حلقه اصلی:** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، متغیر `val` مقدار $${\color{red}inPin}$$ را خوانده و به $${\color{lightblue}LED \space BUILTIN}$$ می دهد.
-
+* **تعریف پین $${\color{Blue}PUSH \space BUTTON}$$:** در ابتدای برنامه، پین $${\color{Blue}PUSH \space BUTTON}$$ به متغیر `inPin` اختصاص داده می‌شود که در این مثال پین 7 است و یا میتوان هر پین دیگری تعریف کرد.
+* **متغیر val:** در ابتدای برنامه، متغیر `val` برای ذخیره مقدار $${\color{Blue}PUSH \space BUTTON}$$ به صورت یک متغیر آماده تعریف می شود.
+* **تنظیم حالت پین $${\color{Red}LED \space BUILTIN}$$:** در تابع `setup`، پین $${\color{Red}LED \space BUILTIN}$$ به عنوان خروجی تنظیم می‌شود تا بتوانیم از طریق $${\color{Blue}PUSH \space BUTTON}$$ به آن مقدار دهیم و آن را روشن یا خاموش کنیم.
+* **تنظیم حالت پین $${\color{Green}inPin}$$:** در تابع `setup`، پین $${\color{red}inPin}$$ به عنوان ورودی تنظیم می‌شود تا بتوانیم مقدار آن را خوانده و $${\color{lightblue}LED \space BUILTIN}$$ را خاموش یا روشن کنیم.
+* **حلقه اصلی:** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، متغیر `val` مقدار $${\color{Green}inPin}$$ را خوانده و به $${\color{Red}LED \space BUILTIN}$$ می دهد.
+* # در ازمایش اول در مورد توابع LOOP و SETUP کامل توضیح داده شده است.
 **شماتیک مدار:**
 
 ![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
 
 
 **توضیحات شماتیک:**
-* همانطور که در تصویر مشخص است پایه 7 برد آردیونو به پایه سمت چپ پایین $${\color{red}PUSH \space BUTTON}$$ متصل است. و پایه بالا راست $${\color{red}PUSH \space BUTTON}$$ به پایه `GND` برد آردیونو متصل شده است.
+* همانطور که در تصویر مشخص است پایه 7 برد آردیونو به پایه سمت چپ پایین $${\color{Blue}PUSH \space BUTTON}$$ متصل است. و پایه بالا راست $${\color{Blue}PUSH \space BUTTON}$$ به پایه `GND` و یا 'زمین' برد آردیونو UNO متصل شده است.
 
 ### نتیجه گیری:
 در این آزمایش ساده، ما توانستیم ابزار جدید نیز به برد آردیونو خود اضافه و از آنها استفاده کنیم. این آزمایش قطعا به ما کمک خواهد کرد که در آینده از ابزار های مختلف برای کاربرد های مختلف استفاده کنیم.
