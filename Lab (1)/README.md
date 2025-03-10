@@ -47,7 +47,7 @@ void loop() {
 
 ### وسایل مورد نیاز:
 * برد آردوینو $${\color{lightblue}UNO \space}$$
-* یک عدد $${\color{red}PUSH \space BUTTON}$$
+* یک عدد $${\color{Blue}PUSH \space BUTTON}$$
 * بردبورد
 * سیم‌های جامپر
 * کابل USB برای برنامه‌ریزی و ارتباط با کامپیوتر
