@@ -79,7 +79,7 @@ void loop() {
 *  **در ازمایش اول در مورد توابع LOOP و SETUP کامل توضیح داده شده است.**
 **شماتیک مدار:**
 
-![توضیح تصویر](https://github.com/mohammadalidehghanian/MicroProcessor/blob/main/Session%201/Schematic2.jpg)
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(1)/ax.jpg)
 
 **خطاهای احتمالی:**
 * گاهی وقت ها ممکن است مدار به درستی کار نکند و یا به اصطلاحا به باگ بخورد 'Bug' در چنین شرایطی میتوان از دکمه ریست 'Reset' در گوشه برد آردینو $${\color{lightblue}UNO \space}$$ استفاده کرد تا برنامه و مدار به درستی کار کنند.
