@@ -2,7 +2,7 @@
 ## روشن و خاموش کردن $${\color{Red}LED \space BUILTIN}$$ با استفاده از $${\color{Blue}PUSH \space BUTTON}$$ بدون استفاده از مقاومت داخلی ($${\color{Yellow}PULL \space UP}$$)
 
 ### هدف آزمایش : 
-هدف از انجام این آزمایش مبنی بر این است که تابع `PUll UP` را طوری بر مدار پیاده سازی کنیم که با فشار دادن $${\color{Blue}PUSH \space BUTTON}$$ بتواینم $${\color{Red}LED \space BUILTIN}$$ خاموش و روشن کنیم.
+هدف از انجام این آزمایش مبنی بر این است که تابع `PUll UP` را با بدون اسفتاده از مقاومت داخلی طوری بر مدار پیاده سازی کنیم که با فشار دادن $${\color{Blue}PUSH \space BUTTON}$$ بتواینم $${\color{Red}LED \space BUILTIN}$$ خاموش و روشن کنیم.
 
  ### وسایل مورد نیاز آزمایش : 
 * برد آردوینو $${\color{lightblue}UNO \space}$$
@@ -29,5 +29,27 @@
 ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax1.jpg)
 * **توضیح شماتیک :**
 * مقاومت 10k اهم به $${\color{Blue}PUSH \space BUTTON}$$ و مقاومت 220 اهم به $${\color{Red}LED \space BUILTIN}$$ و همچنین 5V برق و GND زمین را $${\color{Blue}PUSH \space BUTTON}$$ و خروجی ان را به پین 8 و پین 2 را به $${\color{Red}LED \space BUILTIN}$$  و طرف دیگر آن را به GND متصل می کنیم.
-### نتیجه گیری:
+### نتیجه گیری :
 در این آزمایش ما توانستیم با موفقیت $${\color{Red}LED \space BUILTIN}$$ را با $${\color{Blue}PUSH \space BUTTON}$$ زن روشن و خاموش یا `PUll UP` کنیم.
+
+
+# شرح آزمایش دوم :
+## روشن و خاموش کردن $${\color{Red}LED \space BUILTIN}$$ با استفاده از $${\color{Blue}PUSH \space BUTTON}$$ با استفاده از مقاومت داخلی (PULL UP)
+
+### هدف آزمایش : 
+هدف از انجام این آزمایش مبنی بر این است که تابع `PUll UP` را با استفاده از مقاومت داخلی طوری بر مدار پیاده سازی کنیم که با فشار دادن $${\color{Blue}PUSH \space BUTTON}$$ بتواینم $${\color{Red}LED \space BUILTIN}$$ خاموش و روشن کنیم.
+
+ ### وسایل مورد نیاز آزمایش : 
+* برد آردوینو $${\color{lightblue}UNO \space}$$
+* کابل USB برای برنامه‌ریزی و ارتباط با کامپیوتر
+* نرم‌افزار آردوینوIDE 
+* $${\color{Red}LED \space BUILTIN}$$ یک عدد
+* $${\color{Blue}PUSH \space BUTTON}$$ یک عدد
+* مقداری سیم جامپر
+* مقاومت 220 اهم
+* 
+* ### شرح آزمایش :
+
+در این آزمایش، سعی داریم $${\color{Red}LED \space BUILTIN}$$ روی برد آردیونو را با $${\color{Blue}PUSH \space BUTTON}$$ طریق برنامه نوشته شده IDE  و با مقومت داخلی خورد برد آردینو `PUll UP` کنیم.
+
+**کد پروژه :**
