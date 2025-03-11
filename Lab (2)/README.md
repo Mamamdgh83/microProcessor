@@ -53,3 +53,4 @@
 در این آزمایش، سعی داریم $${\color{Red}LED \space BUILTIN}$$ روی برد آردیونو را با $${\color{Blue}PUSH \space BUTTON}$$ طریق برنامه نوشته شده IDE  و با مقومت داخلی خورد برد آردینو `PUll UP` کنیم.
 
 **کد پروژه :**
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/Code2.jpg)
