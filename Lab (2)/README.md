@@ -100,3 +100,11 @@
 * **تنظیم حالت پین :** در ابتدا پایه 3 و 4 و 5 به ترتیب برای چراغ های $${\color{Green}Green \space }$$ و $${\color{Yellow}Yellow \space }$$ و $${\color{Red}RED \space }$$ به عنوان خروجی تعریف میشوند.
 * همچنین تابع `Setup` برای `Out Put` رنگ چراغ ها تعریف میشوند.
 * **حلقه اصلی :** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار اول چراغ $${\color{Green}Green \space }$$  روشن (High) و با تاخیر 70 به مقدار (Low) و پس از آن چراغ $${\color{Yellow}Yellow \space }$$ با همین روال و پس از آن دوباره چراغ $${\color{Red}RED \space }$$ روشن و پس از آن به روال از اول شروع میگردد.
+ 
+**شماتیک مدار:**
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax3.jpg)
+
+* **توضیح شماتیک :**
+* برای هر کدام از $${\color{Red}LED \space BUILTIN}$$ ها یک مقاومت 220 اهم وصل کرده و یک سر ان را به `Gnd` متصل کرده و پین 3 برای $${\color{Green}Green \space }$$ و پین 4 برای $${\color{Yellow}Yellow \space }$$ و پین 5 برای $${\color{Red}RED \space }$$ به LED ها متصل میکنیم.
+### نتیجه گیری :
+در این آزمایش ما توانستیم با 3 عدد مقاومت 220 اهم و یک برد آردوینو $${\color{lightblue}UNO \space}$$ و 3 عدد LED یک مینی پروژه از چراغ راهنمایی ($${\color{Green}Green \space }$$ و $${\color{Yellow}Yellow \space }$$ و $${\color{Red}RED \space }$$ )در تقاطع ها پیاده سازی کنیم.
