@@ -14,3 +14,4 @@
 * مقاومت 10k اهم و 220 اهم
 * 
 **کد پروژه :**
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/code1.jpg)
