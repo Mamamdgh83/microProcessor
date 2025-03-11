@@ -26,6 +26,8 @@
 * **حلقه اصلی :** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، $${\color{Red}LED \space BUILTIN}$$ با فشار داده شدن $${\color{Blue}PUSH \space BUTTON}$$ به متغییر `Val` فرمان `PUll UP` و همچنین Low و  High را از طریق دستور شرطی `IF`  میدهد.
 * 
 **شماتیک مدار :**
-
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax1.jpg)
+* **توضیح شماتیک :**
+* مقاومت 10k اهم به $${\color{Blue}PUSH \space BUTTON}$$ و مقاومت 220 اهم به $${\color{Red}LED \space BUILTIN}$$ و همچنین 5V برق و GND زمین را $${\color{Blue}PUSH \space BUTTON}$$ و خروجی ان را به پین 8 و پین 2 را به $${\color{Red}LED \space BUILTIN}$$  و طرف دیگر آن را به GND متصل می کنیم.
 ### نتیجه گیری:
 در این آزمایش ما توانستیم با موفقیت $${\color{Red}LED \space BUILTIN}$$ را با $${\color{Blue}PUSH \space BUTTON}$$ زن روشن و خاموش یا `PUll UP` کنیم.
