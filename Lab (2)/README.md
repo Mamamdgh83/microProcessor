@@ -59,11 +59,12 @@
 # توضیحات کلی کد :
 * **تنظیم حالت پین :** در ابتدا پایه 4 به عنوان `ورودی` یا `In Pin` در نظر گرفته شده و پین 2 به عنوان `خروجی` یا  `Out Put` در تابع `setup`، پین $${\color{Red}LED \space PIN}$$ به عنوان خروجی پیش فرض قابل تغییر تنظیم می‌شود (`PUll UP`) تا بتوانیم به آن مقدار  از طریق $${\color{Blue}PUSH \space BUTTON}$$ و آن را روشن یا خاموش کنیم.
 * همچنین متغییر`Val`به عنوان مقدار Low و یا High بودن $${\color{Red}LED \space BUILTIN}$$ تعریف میشود.(`In Pin`)
-* **حلقه اصلی :** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، $${\color{Red}LED \space BUILTIN}$$ با فشار داده شدن $${\color{Blue}PUSH \space BUTTON}$$ به متغییر `Val` فرمان `PUll UP` و همچنین Low و  High را از طریق دستور شرطی `IF`  میدهد.
+* **حلقه اصلی :** تابع `loop` به صورت مداوم تکرار می‌شود. در هر تکرار، $${\color{Red}LED \space BUILTIN}$$ با فشار داده شدن $${\color{Blue}PUSH \space BUTTON}$$ به متغییر `Val` فرمان `PUll UP` و همچنین Low و  High را از طریق دستور شرطی `IF` نسبت به `In Pin` میدهد.
 
 * **شماتیک مدار :**
-![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax1.jpg)
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax2.jpg)
 * **توضیح شماتیک :**
-* مقاومت 10k اهم به $${\color{Blue}PUSH \space BUTTON}$$ و مقاومت 220 اهم به $${\color{Red}LED \space BUILTIN}$$ و همچنین 5V برق و GND زمین را $${\color{Blue}PUSH \space BUTTON}$$ و خروجی ان را به پین 8 و پین 2 را به $${\color{Red}LED \space BUILTIN}$$  و طرف دیگر آن را به GND متصل می کنیم.
+* مقاومت 10k اهم  که در آزمایش قبلی استفاده کردیم ، در این آزمایش نیاز نیست استفاده کنیم اما پین 4 و GND به $${\color{Blue}PUSH \space BUTTON}$$ و مقاومت 220 اهم به $${\color{Red}LED \space BUILTIN}$$ به GND زمین و خروجی ان را به پین 2 $${\color{Red}LED \space BUILTIN}$$ متصل می کنیم.
 ### نتیجه گیری :
-در این آزمایش ما توانستیم با موفقیت $${\color{Red}LED \space BUILTIN}$$ را با $${\color{Blue}PUSH \space BUTTON}$$ زن روشن و خاموش یا `PUll UP` کنیم.
+در این آزمایش ما توانستیم با مقاومت داخلی خود برد آردوینو $${\color{lightblue}UNO \space}$$ با موفقیت $${\color{Red}LED \space BUILTIN}$$ را با $${\color{Blue}PUSH \space BUTTON}$$ زن روشن و خاموش یا `PUll UP` کنیم.
+* تفاوت این ازمایش نسبت به ازمایش قبلی این است که از عدم نیاز خود به مقاومت 10k اهم و تغییرات جزعی در کد برنامه و عدم استفاده از سیم جامپر کمتر استفاده کردیم.
