@@ -18,7 +18,7 @@
 در این آزمایش، سعی داریم $${\color{Red}LED \space BUILTIN}$$ روی برد آردیونو را با $${\color{Blue}PUSH \space BUTTON}$$ طریق برنامه نوشته شده IDE  و `PUll UP` کنیم.
 
 **کد پروژه :**
-![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/code1.jpg)
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/Code1.jpg)
 
 # توضیحات کلی کد :
 * **تنظیم حالت پین :** در ابتدا پایه 8 به عنوان `ورودی` یا `In Pin` در نظر گرفته شده و پین 2 به عنوان `خروجی` یا  `Out Put` در تابع `setup`، پین $${\color{Red}LED \space PIN}$$ به عنوان خروجی پیش فرض قابل تغییر تنظیم می‌شود تا بتوانیم به آن مقدار  از طریق $${\color{Blue}PUSH \space BUTTON}$$ و آن را روشن یا خاموش کنیم.
