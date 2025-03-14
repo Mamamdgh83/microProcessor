@@ -77,14 +77,12 @@
 هدف از انجام این آزمایش این است که بتوانیم شبه پروژه و شبه کد از یک سیستم چراغ راهنمایی رانندگی در تقاطع ها با استفاده از برد آردوینو $${\color{lightblue}UNO \space}$$ پیاده سازی کنیم.
 
  ### وسایل مورد نیاز آزمایش : 
+* 3عدد مقاومت 220 اهم
 * برد آردوینو $${\color{lightblue}UNO \space}$$
 * کابل USB برای برنامه‌ریزی و ارتباط با کامپیوتر
 * نرم‌افزار آردوینوIDE 
-* 3 عدد $${\color{Red}LED \space BUILTIN}$$
-
+* $${\color{Red}LED \space BUILTIN}$$ سه عدد
 * مقداری سیم جامپر
-* 3عدد مقاومت 220 اهم
-*
 
 ### شرح آزمایش :
 
@@ -108,3 +106,25 @@
 * برای هر کدام از $${\color{Red}LED \space BUILTIN}$$ ها یک مقاومت 220 اهم وصل کرده و یک سر ان را به `Gnd` متصل کرده و پین 3 برای $${\color{Green}Green \space }$$ و پین 4 برای $${\color{Yellow}Yellow \space }$$ و پین 5 برای $${\color{Red}RED \space }$$ به LED ها متصل میکنیم.
 ### نتیجه گیری :
 در این آزمایش ما توانستیم با 3 عدد مقاومت 220 اهم و یک برد آردوینو $${\color{lightblue}UNO \space}$$ و 3 عدد LED یک مینی پروژه از چراغ راهنمایی ($${\color{Green}Green \space }$$ و $${\color{Yellow}Yellow \space }$$ و $${\color{Red}RED \space }$$ )در تقاطع ها پیاده سازی کنیم.
+
+# شرح آزمایش چهارم :
+## طراحی و اجرا تابلو روان با استفاده از ماتریس ها و چند عدد $${\color{Red}LED \space BUILTIN}$$ و $${\color{Blue}PUSH \space BUTTON}$$ برای پیاده سازی حالت های متفاوت روشن و خاموش شدن LED ها
+### هدف آزمایش :
+هدف از انجام این آژمایش این است که بتوانیم با استفاده از ماتریس ها و حلقه های `For` و دستور شرطی `IF` یک رقض نور ساده $${\color{Red}Dancing \space Light}$$ و یک تابلو روان $${\color{Blue}Smooth \space Board}$$ پیاده سازی واجرا نمود.
+### وسایل مورد نیاز آزمایش : 
+* برد آردوینو $${\color{lightblue}UNO \space}$$
+* کابل USB برای برنامه‌ریزی و ارتباط با کامپیوتر
+* نرم‌افزار آردوینوIDE 
+* $${\color{Red}LED \space BUILTIN}$$ چهار عدد
+* $${\color{Blue}PUSH \space BUTTON}$$ دو عدد
+* مقداری سیم جامپر
+* 2 عدد مقاومت 10k اهم و 4 عدد 220 اهم
+
+ ### شرح آزمایش : 
+ در این آزمایش با فشار دادن یکی از $${\color{Blue}PUSH \space BUTTON}$$ ها باید $${\color{Red}LED \space BUILTIN}$$ ها با الگو خاصی که از قبل براشون تعریف کردیم ، روشن و خاموش شوند که به طور کلی از افکت خاصی پیروی میکنند.
+
+ **کد پروژه:**
+
+ ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax3.jpg)
+
+ ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax3.jpg)
