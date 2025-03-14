@@ -124,7 +124,23 @@
  در این آزمایش با فشار دادن یکی از $${\color{Blue}PUSH \space BUTTON}$$ ها باید $${\color{Red}LED \space BUILTIN}$$ ها با الگو خاصی که از قبل براشون تعریف کردیم ، روشن و خاموش شوند که به طور کلی از افکت خاصی پیروی میکنند.
 
  **کد پروژه:**
+(عکس اول)
+ ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/Code4.1.jpg)
+(عکس دوم)
+ ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/Code4.2.jpg)
+ 
+# توضیحات کلی کد :
+### **۱. تعریف پین‌ها**
+در تابع `setup`، ورودی و خروجی‌های مدار و در قبل از آن `Define`ها برای A0 و A1 تعریف میشوند.
 
- ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax3.jpg)
+### **۲. تعریف آرایه‌های الگو**
+دو آرایه `dancingLight1` و `dancingLight2`، ترتیب روشن و خاموش شدن LEDها را مشخص می‌کنند.
 
- ![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax3.jpg)
+### **۳. خواندن دکمه‌ها و اجرای الگوها**
+در تابع `loop`, وضعیت $${\color{Blue}PUSH \space BUTTON}$$ ها بررسی شده و در صورت فشرده شدن، الگوی مربوطه اجرا می‌شود.
+
+### **۴. تأخیر برای نمایش بهتر افکت‌ها**
+با استفاده از `Delay`، تغییرات در روشنایی $${\color{Red}LED \space BUILTIN}$$ ها قابل مشاهده‌تر می‌شوند.
+
+**شماتیک مدار :**
+![توضیح تصویر](https://github.com/Mamamdgh83/microProcessor/blob/main/Lab%20(2)/ax4.jpg)
